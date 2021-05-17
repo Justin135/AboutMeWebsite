@@ -1,0 +1,53 @@
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
+    .navbar-custom {
+        background-color: white;
+        position: sticky;
+    }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+    .navbar-custom {
+        background-color: black;
+        position: sticky;
+    }
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #ff9040;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #ff9040;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link {
+    color: #ffd903;
+    font-weight: bold;
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffd903;
+}
+
+body {
+    font-family: 'Times New Roman', Times, sanserif;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
