@@ -1,25 +1,11 @@
-/* Light mode */
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: white;
-        color: black;
-    }
-    .navbar-custom {
-        background-color: white;
-        position: sticky;
-    }
+body {
+    background-color: black;
+    color: white;
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: black;
-        color: white;
-    }
-    .navbar-custom {
-        background-color: black;
-        position: sticky;
-    }
+.navbar-custom {
+    background-color: black;
+    position: sticky;
 }
 
 img {
@@ -27,7 +13,7 @@ img {
     max-height: fit-content;
 }
 
-p, li {
+p.large, ul.large {
     font-size: larger;
 }
 
